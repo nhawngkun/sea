@@ -25,6 +25,7 @@ public class HomeUI : MonoBehaviour
     void OnDestroy()
     {
         StartGame -= OnClickButton;
+        Debug.Log($"moveDistance{moveDistance}");
     }
     void OnEnable()
     {
