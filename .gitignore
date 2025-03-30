@@ -3,3 +3,6 @@ Out to Sea Adventure/Library
 Out to Sea Adventure/Logs
 Out to Sea Adventure/obj
 Out to Sea Adventure/Temp
+Out to Sea Adventure/.vscode
+*.csproj
+Out to Sea Adventure/Assembly-CSharp.csproj
