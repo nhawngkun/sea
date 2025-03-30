@@ -26,6 +26,7 @@ public class HomeUI : MonoBehaviour
     {
         StartGame -= OnClickButton;
         Debug.Log($"moveDistance{moveDistance}");
+        Debug.Log($"duration {duration}");
     }
     void OnEnable()
     {
