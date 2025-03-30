@@ -20,13 +20,10 @@ public class HomeUI : MonoBehaviour
         _topStartPos = uiTop.anchoredPosition;
         _bottomStartPos = uiBottom.anchoredPosition;
         StartGame += OnClickButton;
-        Debug.Log($"duration {duration}");
     }
     void OnDestroy()
     {
         StartGame -= OnClickButton;
-        Debug.Log($"moveDistance{moveDistance}");
-        Debug.Log($"duration {duration}");
     }
     void OnEnable()
     {
