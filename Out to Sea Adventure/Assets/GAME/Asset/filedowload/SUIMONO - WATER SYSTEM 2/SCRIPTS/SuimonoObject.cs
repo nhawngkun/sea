@@ -645,7 +645,7 @@ namespace Suimono.Core
 				Shader.SetGlobalFloat("cmScaleY", enableCustomMesh ? cmScaleY : 1f);
 
 				//set scale mesh
-				if (suimonoModuleLibrary.texNormalC && scaleMesh != null) scaleMesh.mesh = suimonoModuleLibrary.meshLevel[1];	
+				//if (suimonoModuleLibrary.texNormalC && scaleMesh != null) scaleMesh.mesh = suimonoModuleLibrary.meshLevel[1];	
 
 
 				//-------------------------------------------------------
@@ -1168,7 +1168,7 @@ namespace Suimono.Core
 
 			//get preset directories
 			presetDirsArr = new List<string>();
-			dirInfo = new DirectoryInfo(dir+"/").GetFiles("SUIMONO_PRESETS_*");
+			dirInfo = new DirectoryInfo(dir + "/").GetFiles("SUIMONO_PRESETS_*");
 			if (new DirectoryInfo(dir+"/") != null){
 				for (d = 0; d < dirInfo.Length; d++){
 					presetDirsArr.Add(dirInfo[d].ToString());

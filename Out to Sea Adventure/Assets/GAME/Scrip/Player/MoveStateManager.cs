@@ -226,23 +226,23 @@ public class MoveStateManager : MonoBehaviour
         }
     }
 
-    void OnDrawGizmos()
-    {
-        // Draw ground check sphere
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(spherePos, charControl.radius - 0.05f);
+    //void OnDrawGizmos()
+    //{
+    //    // Draw ground check sphere
+    //    Gizmos.color = Color.red;
+    //    Gizmos.DrawWireSphere(spherePos, charControl.radius - 0.05f);
 
-        // Draw water detector spheres if they exist
-        if (WaterDetector != null)
-        {
-            Gizmos.color = Color.blue;
-            Gizmos.DrawWireSphere(WaterDetector.bounds.center, 0.1f);
-        }
+    //    // Draw water detector spheres if they exist
+    //    if (WaterDetector != null)
+    //    {
+    //        Gizmos.color = Color.blue;
+    //        Gizmos.DrawWireSphere(WaterDetector.bounds.center, 0.1f);
+    //    }
 
-        if (HeadDetector != null)
-        {
-            Gizmos.color = Color.cyan;
-            Gizmos.DrawWireSphere(HeadDetector.bounds.center, 0.1f);
-        }
-    }
+    //    if (HeadDetector != null)
+    //    {
+    //        Gizmos.color = Color.cyan;
+    //        Gizmos.DrawWireSphere(HeadDetector.bounds.center, 0.1f);
+    //    }
+    //}
 }
