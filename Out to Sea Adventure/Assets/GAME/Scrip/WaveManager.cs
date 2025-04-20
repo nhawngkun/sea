@@ -18,7 +18,7 @@ public class WaveManager : MonoBehaviour
 
         }else if(instance!=this)
         {
-            Debug.Log("hi");
+          
             Destroy(this);
 
         }
